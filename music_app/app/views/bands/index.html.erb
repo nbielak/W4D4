@@ -1,0 +1,7 @@
+<h2>All Bands</h2>
+
+<ul>
+  <% @bands.each do |curr_band| %>
+  <li> <%= render 'band', band: curr_band, action: :index %> </li>
+  <% end %>
+</ul>

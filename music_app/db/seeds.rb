@@ -10,3 +10,9 @@ User.destroy_all
 joe = User.new(email: 'joe@joe.com')
 joe.password = "123456"
 joe.save!
+
+
+Band.destroy_all
+Band.create!(name: "The Beatles")
+Band.create!(name: "Nirvana")
+Band.create!(name: "Tame Impala")
